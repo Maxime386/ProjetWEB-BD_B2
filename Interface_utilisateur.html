@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drive'AGAIN</title>
+    <link rel="stylesheet" href = "connexion.css"> 
+    <!-- Lier l'html -->
+    <title>Connexion/compte</title>
 </head>
 <body>
-    <h1> Bienvenu sur Drive'AGAIN </h1>
     
+    <h1> Vous connecter ?</h1>
+    <div class="connexion"> 
+        <!-- Pour regrouper -> div -->
+        <form action="connexion" method="POST"> 
+            <!-- Post : Pour envoyer les données au serveur  -->
+        <input type="email" name="email" placeholder="test@gmail.com" > 
+        <!-- Placeholder est ce qui s'affiche par défault dans le champ, name est le nom du champ ne sera donc pas affiché -->
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe" >
+        <button type="submit">Se connecter</button> 
+        <!-- Submit envoie -->
+        </form>
+    </div>
+    <h1> Vous créer un compte ?</h1>
+    <div class="creercompte">
+        <form action="creercompte" method="POST">
+        <input type="email" name="email" placeholder="test@gmail.com" >
+        <!--  Voir remarque bouton de connexion -->
+        <input type="password" name="mot_de_passe" placeholder="Mot de passe" >
+        <button type="submit">Crèer un compte</button>
+    
+        </form>
+    </div>
+    <h1> Admin ? 
+        <div class="admin">
+        <form action="connexion" method="POST">
+        <input type="password" name="mot_de_passe" placeholder="Code secret" >
+        <!-- Voir remarque bouton connexion -->
+        <button type="submit">Se connecter</button>
+        </form>
+    </div>
+    </h1>
+
+
 </body>
 </html>
