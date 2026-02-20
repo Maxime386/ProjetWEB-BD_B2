@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://img.freepik.com/photos-premium/porsche-jaune-ville-arriere-plan_7023-6990.jpg');
+    background-repeat: no-repeat; /* Ne pas afficher plusieurs fois l'image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Prendra toutes la fenètre */
+
+}
+.creercompte, .connexion, .admin{
+    text-align: center;
+    
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
