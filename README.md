@@ -4,5 +4,7 @@ Pas d'IA copier coller ou alors en parler avant au groupe.
 
 On va séparer en plein de fichier donc un fichier CSS et HTML pour CHAQUE page web.
 
+Bon travail les gars !
+
 
 
