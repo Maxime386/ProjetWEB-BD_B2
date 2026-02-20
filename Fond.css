@@ -1,0 +1,52 @@
+body {
+    /* background-color: rgb(234, 72, 3); */
+    /* background-image: url('https://img.freepik.com/photos-premium/mouvement-vibrant-supercar-concue-par-golden-oil-flow_1158260-64441.jpg?semt=ais_hybrid&w=740&q=80');*/
+    background-image: url('https://img.freepik.com/photos-premium/porsche-jaune-ville-arriere-plan_7023-6990.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;  /* Pour éviter les répétitions de l'image de fond */
+    background-position: center; /* Centrer */
+    margin: 0; /* marge à 0 pour éviter les bandes blanches */
+    min-height:100vh; /*Viewport height donc s'addapte à la fenetre */
+    padding:0;
+
+
+}
+h1 {
+    /* font-weight : pour mettre tous les H1 en gras par exemple */
+    /* color : FFFFFFFF RGB */
+    text-align : center;
+    color:rgb(5, 5, 5);
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size:3rem;
+}
+
+#alpha {
+    width: 800px; 
+    height : 50px;
+    align-items: center; /* Pour centrer */
+    border-radius: 50px;
+    border: 8px solid;
+}
+
+
+.menu_connexion {
+    top: 25px;
+    right: 20pt;
+    color: white;
+    position: fixed;
+    font-weight:bold;
+    border-radius: 10px;
+    border: 4px solid;
+}
+
+.recherche {
+    justify-content: center; /* Centrer horizontallement */
+    align-items: center; /* Centrer verticallement */
+    bottom : 10px;
+}
